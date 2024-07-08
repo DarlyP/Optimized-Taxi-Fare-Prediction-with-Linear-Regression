@@ -17,7 +17,7 @@ Sebagai perusahaan penyedia layanan taksi seperti Lyft atau Uber, memahami fakto
 
 ---
 
-## Kesimpulan
+## Conclusion
 
 Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
 
