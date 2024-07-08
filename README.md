@@ -17,6 +17,8 @@ Sebagai perusahaan penyedia layanan taksi seperti Lyft atau Uber, memahami fakto
 
 ---
 
+## Kesimpulan
+
 Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
 
 - Model regresi linear berhasil dibentuk menggunakan pipeline dengan *hyperparameter fit intercept*. Parameter terbaik yang ditemukan adalah ketika *fit intercept* bernilai *False*.
