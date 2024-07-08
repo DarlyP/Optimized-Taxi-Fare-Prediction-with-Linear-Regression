@@ -7,7 +7,7 @@
 
 ## Data Source
 
-Kaggle: [[Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma).
+Kaggle: [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma).
 
 ---
 
