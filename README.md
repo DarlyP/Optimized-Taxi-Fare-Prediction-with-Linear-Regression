@@ -4,6 +4,12 @@
 
 ---
 
+## Tools
+
+[<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />](https://pandas.pydata.org/) [<img src="https://img.shields.io/badge/Seaborn-388E3C?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" />](https://seaborn.pydata.org/) [<img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />](https://matplotlib.org/) [<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />](https://www.scipy.org/) [<img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy" />](https://numpy.org/) [<img src="https://img.shields.io/badge/Scikit%20learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />](https://scikit-learn.org/)
+
+
+---
 
 ## Data Source
 
@@ -13,28 +19,28 @@ Kaggle: [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllr
 
 ## Introduction
 
-Sebagai perusahaan penyedia layanan taksi seperti Lyft atau Uber, memahami faktor-faktor yang mempengaruhi harga layanan sangat penting untuk meningkatkan strategi penetapan harga dan daya saing di pasar. Dengan menggunakan analisis Linear Regression pada dataset dari Kaggle, perusahaan dapat mengidentifikasi bagaimana parameter-parameter tertentu, seperti waktu pemesanan, lokasi penjemputan, dan kondisi lalu lintas, mempengaruhi harga taksi. Wawasan ini memungkinkan perusahaan untuk mengoptimalkan harga, menentukan strategi promosi yang efektif, meningkatkan kualitas layanan, memberikan estimasi harga yang akurat kepada pelanggan, dan mengelola armada taksi dengan lebih efisien.
+As a taxi service provider like Lyft or Uber, understanding the factors that influence service pricing is crucial for enhancing pricing strategies and market competitiveness. By utilizing Linear Regression analysis on a dataset from Kaggle, the company can identify how specific parameters such as booking time, pickup location, and traffic conditions affect taxi fares. These insights enable the company to optimize pricing, devise effective promotional strategies, improve service quality, provide accurate fare estimates to customers, and manage taxi fleets more efficiently.
 
 ---
 
 ## Conclusion
 
-Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
+The conclusion obtained from this data analysis is as follows:
 
-- Model regresi linear berhasil dibentuk menggunakan pipeline dengan *hyperparameter fit intercept*. Parameter terbaik yang ditemukan adalah ketika *fit intercept* bernilai *False*.
+- A linear regression model was successfully formed using a pipeline with the "fit intercept" hyperparameter. The optimal parameter found was when "fit intercept" was set to "False".
 
-- RMSE yang dihasilkan dari model ini bernilai rendah, yaitu sekitar 3, sedangkan pada R² diperoleh nilai 89,5%. Pada data train dan test ditemukan nilai yang tidak jauh berbeda, yang menandakan tidak ada *overfitting*.
+- The RMSE (Root Mean Squared Error) produced by the model was low, around 3, while an R² value of 89.5% was achieved. Similar values were found in both the training and test data, indicating no overfitting.
 
-- Nilai QQ plot yang divisualisasikan menunjukkan bahwa data tidak terdistribusi normal, yang ditandai dengan kurva yang menyimpang ke atas.
+- The QQ plot visualization indicated that the data is not normally distributed, evidenced by the curve deviating upwards.
 
-- Nilai Durbin Watson yang diperoleh mendekati 2, yang berarti tidak ada *Auto Correlation*.
+- The Durbin-Watson statistic obtained was close to 2, indicating no autocorrelation.
 
-- Visualisasi *homoscedasticity* dilakukan dan hasilnya menunjukkan bahwa data hasil pemodelan mengindikasikan adanya *heteroskedastisitas*.
+- Homoscedasticity visualization showed heteroskedasticity in the modeled data.
 
-- Dari sudut pandang bisnis perusahaan, menyimpulkan bahwa cuaca tidak berpengaruh signifikan terhadap tarif taksi dari Uber dan Lyft berarti perusahaan dapat fokus pada faktor-faktor yang lebih mempengaruhi penetapan harga, seperti jarak tempuh, lokasi penjemputan, tujuan, jenis kendaraan, dan nama layanan. Hal ini memungkinkan perusahaan untuk mengoptimalkan strategi penetapan harga berdasarkan analisis data yang lebih akurat terhadap faktor-faktor ini. Dengan memperhatikan parameter-parameter ini, perusahaan dapat mengambil langkah-langkah yang lebih tepat untuk menarik pelanggan dengan harga yang kompetitif, serta meningkatkan kepuasan pelanggan dengan menawarkan layanan yang sesuai dengan preferensi mereka.
+- From a business standpoint, concluding that weather does not significantly affect the taxi fares of Uber and Lyft means the company can focus on more impactful pricing factors such as distance, pickup location, destination, vehicle type, and service name. This enables the company to optimize pricing strategies based on more accurate data analysis of these factors. By considering these parameters, the company can take more precise actions to attract customers with competitive pricing and enhance customer satisfaction by offering services aligned with their preferences.
 
 ---
 
-**Disclaimer**: Notebook ini dibuat semata-mata untuk tujuan pembelajaran dan eksplorasi. Tidak ada maksud untuk menyinggung atau merugikan pihak mana pun. Segala konten dan analisis yang disajikan didasarkan pada data publik yang tersedia secara online. Saya melakukan proses ini untuk meningkatkan pemahaman tentang teknik dan metodologi analisis data, serta untuk mengasah keterampilan dalam mengimplementasikan algoritma dan model yang relevan dalam konteks pembelajaran data science.
-
-Dalam melakukan analisis ini, saya berusaha menjaga objektivitas dan profesionalitas dalam menginterpretasikan data yang ada. Segala kesimpulan atau rekomendasi yang disampaikan merupakan hasil dari analisis pribadi dan tidak bermaksud sebagai saran profesional dalam kapasitas tertentu. Saya berharap informasi yang diperoleh dari notebook ini dapat bermanfaat bagi siapa pun yang membacanya untuk kepentingan belajar dan pengembangan keterampilan analisis data.
+**Disclaimer**: 
+- This notebook is created solely for learning and exploration purposes. There is no intention to offend or harm any party. All content and analysis presented are based on publicly available data online. I undertake this process to enhance my understanding of data analysis techniques and methodologies and hone my skills in implementing relevant algorithms and models within the context of data science learning. In conducting this analysis, I strive to maintain objectivity and professionalism in interpreting the existing data. Any conclusions or recommendations provided result from personal analysis and are not intended as professional advice in any specific capacity. I hope the information obtained from this notebook can be useful to anyone reading it to learn and develop data analysis skills.
+- This notebook is written in Indonesian.
