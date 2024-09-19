@@ -1,6 +1,6 @@
 ![Uber and Lyft Dataset Boston MA](https://github.com/DarlyP/Uber-and-Lyft-Dataset-Boston-MA/blob/main/Notebook/UberLyft.jpeg)
 
-# E-Commerce Data Analysis for Seblak Products Using Web Scraping Techniques
+# Optimized Taxi Fare Prediction with Linear Regression
 
 ---
 
